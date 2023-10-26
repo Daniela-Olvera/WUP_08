@@ -67,3 +67,18 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(HEADWTHmodel)
 summary.lm(HEADWTHmodel)
 ```
+
+## make a simple regression model for CHEST
+
+
+## Model LENGTH ~ CHEST  this is an example  
+
+```{r}
+CHESTmodel<- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(CHESTmodel)
+summary.lm(CHESTmodel)
+```
+
+## Conclusion
+Out of all the models that we tested, the one that had the largest r-square is HEADLENGTH, with an r-square of 0.8434.Therefore this is the best model
