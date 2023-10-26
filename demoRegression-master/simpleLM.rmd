@@ -56,3 +56,14 @@ abline(HEADLENmodel)
 summary.lm(HEADLENmodel)
 ```
 
+## make a simple regression model for HEADWTH
+
+
+## Model LENGTH ~ HEADWTH  this is an example  
+
+```{r}
+HEADWTHmodel<- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(HEADWTHmodel)
+summary.lm(HEADWTHmodel)
+```
